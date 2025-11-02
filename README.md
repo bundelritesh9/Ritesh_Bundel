@@ -1,7 +1,6 @@
 # 👋 Hello, I’m Ritesh Bundel
 
-I am a C programmer and software enthusiast focused on building foundational programming skills through hands-on projects.  
-My goal is to create clean, efficient code while continuously learning best practices in software development.
+I am a C programmer and software enthusiast focused on building foundational programming skills through hands-on projects. My goal is to create clean, efficient code while continuously learning best practices in software development.
 
 ---
 
