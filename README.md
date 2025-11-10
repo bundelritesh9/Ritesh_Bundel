@@ -19,21 +19,19 @@ A number guessing game that demonstrates core programming concepts such as loops
 ### [Hangman Challenge in C](https://github.com/bundelritesh9/Ritesh_Bundel/blob/main/hangman_game.c)
 Welcome to the **Hangman Challenge**! This is a simple console-based word-guessing game implemented in **C**. Players have a limited number of lives to guess the hidden word, one letter at a time.
 
----
+ ## Concepts Used
 
-## Concepts Used
+ ### C Concepts
+ - Loops: Repeating actions for guessing and updating the word.  
+ - Conditionals: Checking if the guessed letter is correct or wrong.  
+ - Logic/Algorithm: Updating letters, tracking lives, and checking win/loss.  
+ - Input & Output: Interacting with the player to get guesses and display progress.  
 
-### C Concepts
-- Loops: Repeating actions for guessing and updating the word.  
-- Conditionals: Checking if the guessed letter is correct or wrong.  
-- Logic/Algorithm: Updating letters, tracking lives, and checking win/loss.  
-- Input & Output: Interacting with the player to get guesses and display progress.  
-
-### Math Concepts
-- Counting & Iteration: Tracking letters and remaining lives.  
-- Comparison: Matching guessed letters with the word.  
-- Boolean Logic: Using true/false flags to track correct guesses.  
-- Decrementing: Reducing lives after wrong guesses.
+ ### Math Concepts
+ - Counting & Iteration: Tracking letters and remaining lives.  
+ - Comparison: Matching guessed letters with the word.  
+ - Boolean Logic: Using true/false flags to track correct guesses.  
+ - Decrementing: Reducing lives after wrong guesses.
 ---
 ## 💡 Learning & Growth
 I enjoy building small projects to strengthen my understanding of programming fundamentals and improve problem-solving skills.  
