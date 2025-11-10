@@ -33,11 +33,6 @@ int main()
                 underscore[i] = guess;
                 correctguess = 1;
             }
-            else if (guess != word[i] && underscore[i] != '_')
-            {
-                underscore[i] != guess;
-                correctguess = 0;
-            }
         }
 
         printf("Word: ");
@@ -73,3 +68,4 @@ int main()
     printf("You lost!, The Word was %c%c%c%c%c%c", word[0], word[1], word[2], word[3], word[4], word[5]);
     return 0;
 }
+
