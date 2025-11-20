@@ -33,7 +33,7 @@ Welcome to the **Hangman Challenge**! This is a simple console-based word-guessi
  - Boolean Logic: Using true/false flags to track correct guesses.  
  - Decrementing: Reducing lives after wrong guesses.
 ---
-### [Snake–Water–Gun Game in C]
+### [Snake–Water–Gun Game in C](https://github.com/bundelritesh9/Ritesh_Bundel/blob/main/Snake_Water_Gun_Game.c)
 
 A simple console-based game built in C where the player competes against the computer in a classic **Snake–Water–Gun** game.  
 This project demonstrates the use of **random number generation**, **conditional logic**, and **user input handling**.
