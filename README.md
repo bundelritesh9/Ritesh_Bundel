@@ -6,7 +6,6 @@ I am a C programmer and software enthusiast focused on building foundational pro
 
 ## 🛠 Skills
 - Programming Languages: C
-- Concepts: Loops, Conditionals
 - Tools & Technologies: C language, VS Code
 ---
 
