@@ -20,13 +20,13 @@ Welcome to the **Hangman Challenge**! This is a simple console-based word-guessi
 
  ## Concepts Used
 
- ### C Concepts
+  ## C Concepts
  - Loops: Repeating actions for guessing and updating the word.  
  - Conditionals: Checking if the guessed letter is correct or wrong.  
  - Logic/Algorithm: Updating letters, tracking lives, and checking win/loss.  
  - Input & Output: Interacting with the player to get guesses and display progress.  
 
- ### Math Concepts
+  ## Math Concepts
  - Counting & Iteration: Tracking letters and remaining lives.  
  - Comparison: Matching guessed letters with the word.  
  - Boolean Logic: Using true/false flags to track correct guesses.  
