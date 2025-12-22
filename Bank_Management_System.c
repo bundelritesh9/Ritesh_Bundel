@@ -557,6 +557,13 @@ int main()
 }
 
 
+/*
+Bank Management System in C
+Copyright (c) 2025 Ritesh Bundel
+
+All rights reserved.
+Unauthorized copying or distribution of this code is prohibited.
+*/
 
 
 
