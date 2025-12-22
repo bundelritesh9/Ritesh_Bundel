@@ -144,7 +144,7 @@ int main()
             }
             else
             {
-                printf("According to bank rules, you must be at least 18 years old to create and account.\n");
+                printf("According to bank rules, you must be at least 18 years old to create an account.\n");
             }
         }
         else if (user == 2)
@@ -195,7 +195,7 @@ int main()
                                 }
                                 else
                                 {
-                                    printf("Maximum PIN attempts exceeded. Transaction Cancelled.\n");
+                                    printf("Maximum PIN attempts exceeded. Transaction cancelled.\n");
                                 }
                             }
                         }
@@ -273,7 +273,7 @@ int main()
                                 }
                                 else
                                 {
-                                    printf("Maximum PIN attempts exceeded. Transaction Cancelled.\n");
+                                    printf("Maximum PIN attempts exceeded. Transaction cancelled.\n");
                                 }
                             }
                         }
@@ -340,7 +340,7 @@ int main()
                                 }
                                 else
                                 {
-                                    printf("Maximum PIN attempts exceeded. Transaction Cancelled.\n");
+                                    printf("Maximum PIN attempts exceeded. Transaction cancelled.\n");
                                     break;
                                 }
                             }
@@ -461,7 +461,7 @@ int main()
                                 }
                                 else
                                 {
-                                    printf("Maximum PIN attempts exceeded. Try Again Later!.\n");
+                                    printf("Maximum PIN attempts exceeded. Try again later!.\n");
                                 }
                             }
                         }
@@ -522,7 +522,7 @@ int main()
                                 }
                                 else
                                 {
-                                    printf("Maximum PIN attempts exceeded. Transaction Cancelled.\n");
+                                    printf("Maximum PIN attempts exceeded. Try again later.\n");
                                 }
                             }
                         }
@@ -570,6 +570,7 @@ Unauthorized copying, modification, distribution, or commercial use
 of this software without prior written permission from the author
 is strictly prohibited.
 */
+
 
 
 
