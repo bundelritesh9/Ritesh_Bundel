@@ -26,7 +26,7 @@ int main()
         printf("4. Check Balance\n");
         printf("5. Update account details\n");
         printf("6. Delete account\n");
-        printf("7. exit\n");
+        printf("7. Exit\n");
 
         printf("Please select one\n");
         scanf("%d", &user);
@@ -555,6 +555,7 @@ int main()
     return 0;
 
 }
+
 
 
 
