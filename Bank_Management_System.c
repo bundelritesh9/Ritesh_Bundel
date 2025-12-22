@@ -92,11 +92,11 @@ int main()
                     {
                         if (temp <= 999)
                         {
-                            printf("Sorry! PIN is short. Try Again!\n");
+                            printf("Sorry! PIN is too short. Try Again!\n");
                         }
                         else if (temp >= 10000)
                         {
-                            printf("Sorry! PIN is Long. Try Again!\n");
+                            printf("Sorry! PIN is too Long. Try Again!\n");
                         }
                     }
                 }
@@ -555,5 +555,6 @@ int main()
     return 0;
 
 }
+
 
 
