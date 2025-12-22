@@ -96,7 +96,7 @@ int main()
                         }
                         else if (temp >= 10000)
                         {
-                            printf("Sorry! PIN is too Long. Try again!\n");
+                            printf("Sorry! PIN is too long. Try again!\n");
                         }
                     }
                 }
@@ -179,7 +179,7 @@ int main()
                             if (pin == N.PIN)
                             {
                                 long long int dep;
-                                printf("Enter The Amount To Deposit\nRs.");
+                                printf("Enter the amount to deposit\nRs.");
                                 scanf("%lld", &dep);
                                 N.balance = N.balance + dep;
                                 update_balance = N.balance;
@@ -250,7 +250,7 @@ int main()
                             if (pin == N.PIN)
                             {
                                 long long int wdr;
-                                printf("Enter Amount To Withdraw\nRs. ");
+                                printf("Enter amount to withdraw\nRs. ");
                                 scanf("%lld", &wdr);
                                 if (wdr > N.balance)
                                 {
@@ -323,7 +323,7 @@ int main()
                         while (attempt < 3)
                         {
 
-                            printf("Enter PIN\n");
+                            printf("Enter your PIN\n");
                             scanf("%d", &pin);
                             if (pin == N.PIN)
                             {
@@ -389,7 +389,7 @@ int main()
                                 printf("1. Name\n");
                                 printf("2. Age\n");
                                 printf("3. Phone Number\n");
-                                printf("Enter Your Choice\n");
+                                printf("Select one\n");
                                 scanf("%d", &choice);
                                 found = 1;
                                 if (choice == 1)
@@ -555,6 +555,7 @@ int main()
     return 0;
 
 }
+
 
 
 
