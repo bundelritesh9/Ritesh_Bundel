@@ -33,9 +33,9 @@ int main()
         if (user == 1)
         {
             a N;
-            printf("Enter Your Name : ");
+            printf("Enter your full name : ");
             scanf(" %[^\n]", (N.name));
-            printf("Enter Your Age : ");
+            printf("Enter your age : ");
             scanf(" %d", &(N.age));
             if (N.age >= 18)
             {
@@ -43,7 +43,7 @@ int main()
 
                 while (1)
                 {
-                    printf("Enter Your Phone Number : ");
+                    printf("Enter your phone number : ");
                     scanf("%s", temp_phone);
 
                     if (strlen(temp_phone) == 10)
@@ -144,7 +144,7 @@ int main()
             }
             else
             {
-                printf("According to bank rules, you cannot proceed further because you are under 18 years of age.\n");
+                printf("According to bank rules, you must be at least 18 years old to create and account.\n");
             }
         }
         else if (user == 2)
@@ -165,7 +165,7 @@ int main()
             }
             else
             {
-                printf("Enter Your Account Number\n");
+                printf("Enter your account number\n");
                 scanf("%s", acc_no);
                 while (fscanf(ptr, "%[^|]|%d|%[^|]|%[^|]|%lld|%d\n", N.name, &N.age, N.phone, N.accountNumber, &N.balance, &N.PIN) != EOF)
                 {
@@ -204,12 +204,12 @@ int main()
                 }
                 if (found)
                 {
-                    printf("Amount has been Deposited.\n");
+                    printf("Amount successfully deposited.\n");
                     printf("Remaining Account Balance : Rs. %lld\n", update_balance);
                 }
                 else if (!found && attempt < 3)
                 {
-                    printf("Account wasn't found!\n");
+                    printf("Account not found!\n");
                 }
                 fclose(ptr);
                 fclose(ptr2);
@@ -237,7 +237,7 @@ int main()
             else
             {
 
-                printf("Enter Account Number\n");
+                printf("Enter account number\n");
                 scanf("%s", acc_no);
                 while (fscanf(ptr, "%[^|]|%d|%[^|]|%[^|]|%lld|%d\n", N.name, &N.age, N.phone, N.accountNumber, &N.balance, &N.PIN) != EOF)
                 {
@@ -284,12 +284,12 @@ int main()
 
                 if (found)
                 {
-                    printf("Amount has been withdrawn Successfully.\n");
+                    printf("Amount successfully withdrawn.\n");
                     printf("Remaining Account Balance : Rs. %lld", update_balance);
                 }
                 else if (!found && attempt < 3)
                 {
-                    printf("Account wasn't Found!");
+                    printf("Account not Found!");
                 }
 
                 fclose(ptr);
@@ -349,7 +349,7 @@ int main()
                 }
                 if (!found && attempt < 3)
                 {
-                    printf("Account wasn't Found!");
+                    printf("Account not Found!");
                 }
                 fclose(ptr);
             }
@@ -372,7 +372,7 @@ int main()
             }
             else
             {
-                printf("Enter Account Number\n");
+                printf("Enter account number\n");
                 scanf("%s", acc_no);
 
                 while (fscanf(ptr, "%[^|]|%d|%[^|]|%[^|]|%lld|%d\n", N.name, &N.age, N.phone, N.accountNumber, &N.balance, &N.PIN) != EOF)
@@ -394,18 +394,18 @@ int main()
                                 found = 1;
                                 if (choice == 1)
                                 {
-                                    printf("Enter Name\n");
+                                    printf("Enter your full name\n");
                                     scanf(" %[^\n]", N.name);
 
-                                    printf("Name has been updated Successfully!\n");
+                                    printf("Name updated Successfully!\n");
                                     break;
                                 }
                                 else if (choice == 2)
                                 {
-                                    printf("Enter Age\n");
+                                    printf("Enter age\n");
                                     scanf("%d", &N.age);
 
-                                    printf("Age has been updated Successfully!\n");
+                                    printf("Age updated Successfully!\n");
                                     break;
                                 }
                                 else if (choice == 3)
@@ -414,7 +414,7 @@ int main()
 
                                     while (1)
                                     {
-                                        printf("Enter Phone Number : ");
+                                        printf("Enter phone number : ");
                                         scanf("%s", temp_phone);
 
                                         if (strlen(temp_phone) == 10)
@@ -432,7 +432,7 @@ int main()
                                             if (valid)
                                             {
                                                 strcpy(N.phone, temp_phone);
-                                                printf("Phone Number has been updated Successfully!\n");
+                                                printf("Phone Number updated Successfully!\n");
                                                 break;
                                             }
                                             else
@@ -470,7 +470,7 @@ int main()
                 }
                 if (!found && attempt < 3)
                 {
-                    printf("Account wasn't Found!");
+                    printf("Account not Found!");
                 }
                 fclose(ptr);
                 fclose(ptr2);
@@ -539,7 +539,7 @@ int main()
                 }
                 else if (!found && attempt < 3)
                 {
-                    printf("Account wasn't Found!");
+                    printf("Account not Found!");
                 }
                 fclose(ptr);
                 fclose(ptr2);
@@ -555,3 +555,4 @@ int main()
     return 0;
 
 }
+
