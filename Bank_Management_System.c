@@ -81,7 +81,7 @@ int main()
                 int temp;
                 while (1)
                 {
-                    printf("Create 4 digit PIN: ");
+                    printf("Create 4-digit PIN: ");
                     scanf("%d", &temp);
                     if (temp > 999 && temp < 10000)
                     {
@@ -92,11 +92,11 @@ int main()
                     {
                         if (temp <= 999)
                         {
-                            printf("Sorry! PIN is too short. Try Again!\n");
+                            printf("Sorry! PIN is too short. Try again!\n");
                         }
                         else if (temp >= 10000)
                         {
-                            printf("Sorry! PIN is too Long. Try Again!\n");
+                            printf("Sorry! PIN is too Long. Try again!\n");
                         }
                     }
                 }
@@ -130,12 +130,12 @@ int main()
                 } while (!unique);
 
                 printf("\nCongratulations!!, You have successfully created your account in our bank\n");
-                printf("Name : %s\n", N.name);
-                printf("Age : %d\n", N.age);
-                printf("Phone Number : %s\n", N.phone);
-                printf("Account Number is : %s\n", N.accountNumber);
+                printf("Name: %s\n", N.name);
+                printf("Age: %d\n", N.age);
+                printf("Phone Number: %s\n", N.phone);
+                printf("Account Number: %s\n", N.accountNumber);
                 N.balance = 2000;
-                printf("Current Balance : Rs. %lld\n", N.balance);
+                printf("Current Balance: Rs. %lld\n", N.balance);
 
                 FILE *ptr;
                 ptr = fopen("Bank_Management_System_File.txt", "a");
@@ -174,7 +174,7 @@ int main()
                     {
                         while (attempt < 3)
                         {
-                            printf("Enter Your PIN\n");
+                            printf("Enter your PIN\n");
                             scanf("%d", &pin);
                             if (pin == N.PIN)
                             {
@@ -245,7 +245,7 @@ int main()
                     {
                         while (attempt < 3)
                         {
-                            printf("Enter PIN\n");
+                            printf("Enter your PIN\n");
                             scanf("%d", &pin);
                             if (pin == N.PIN)
                             {
@@ -314,7 +314,7 @@ int main()
             }
             else
             {
-                printf("Enter Account Number\n");
+                printf("Enter account number\n");
                 scanf("%s", acc_no);
                 while (fscanf(ptr, "%[^|]|%d|%[^|]|%[^|]|%lld|%d\n", N.name, &N.age, N.phone, N.accountNumber, &N.balance, &N.PIN) != EOF)
                 {
@@ -327,7 +327,7 @@ int main()
                             scanf("%d", &pin);
                             if (pin == N.PIN)
                             {
-                                printf("Balance : Rs. %lld", N.balance);
+                                printf("Current balance: Rs. %lld", N.balance);
                                 found = 1;
                                 break;
                             }
@@ -382,7 +382,7 @@ int main()
                     {
                         while (attempt < 3)
                         {
-                            printf("Enter PIN\n");
+                            printf("Enter your PIN\n");
                             scanf("%d", &pin);
                             if (pin == N.PIN)
                             {
@@ -402,7 +402,7 @@ int main()
                                 }
                                 else if (choice == 2)
                                 {
-                                    printf("Enter age\n");
+                                    printf("Enter your age\n");
                                     scanf("%d", &N.age);
 
                                     printf("Age updated Successfully!\n");
@@ -414,7 +414,7 @@ int main()
 
                                     while (1)
                                     {
-                                        printf("Enter phone number : ");
+                                        printf("Enter your phone number\n");
                                         scanf("%s", temp_phone);
 
                                         if (strlen(temp_phone) == 10)
@@ -504,7 +504,7 @@ int main()
                     {
                         while (attempt < 3)
                         {
-                            printf("Enter PIN\n");
+                            printf("Enter your PIN\n");
                             scanf("%d", &pin);
                             if (pin == N.PIN)
                             {
@@ -555,6 +555,7 @@ int main()
     return 0;
 
 }
+
 
 
 
