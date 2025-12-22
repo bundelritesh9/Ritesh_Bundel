@@ -33,9 +33,9 @@ int main()
         if (user == 1)
         {
             a N;
-            printf("Enter your full name : ");
+            printf("Enter your full name: ");
             scanf(" %[^\n]", (N.name));
-            printf("Enter your age : ");
+            printf("Enter your age: ");
             scanf(" %d", &(N.age));
             if (N.age >= 18)
             {
@@ -43,7 +43,7 @@ int main()
 
                 while (1)
                 {
-                    printf("Enter your phone number : ");
+                    printf("Enter your phone number: ");
                     scanf("%s", temp_phone);
 
                     if (strlen(temp_phone) == 10)
@@ -81,7 +81,7 @@ int main()
                 int temp;
                 while (1)
                 {
-                    printf("Create 4 digit PIN : ");
+                    printf("Create 4 digit PIN: ");
                     scanf("%d", &temp);
                     if (temp > 999 && temp < 10000)
                     {
@@ -495,7 +495,7 @@ int main()
             }
             else
             {
-                printf("Enter Account Number\n");
+                printf("Enter account number\n");
                 scanf("%s", acc_no);
                 while (fscanf(ptr, "%[^|]|%d|%[^|]|%[^|]|%lld|%d\n", N.name, &N.age, N.phone, N.accountNumber, &N.balance, &N.PIN) != EOF)
                 {
@@ -535,7 +535,7 @@ int main()
                 }
                 if (found)
                 {
-                    printf("Account has been deleted Successfully.\n");
+                    printf("Account has been deleted successfully.\n");
                 }
                 else if (!found && attempt < 3)
                 {
@@ -555,6 +555,7 @@ int main()
     return 0;
 
 }
+
 
 
 
