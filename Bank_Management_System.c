@@ -559,11 +559,18 @@ int main()
 
 /*
 Bank Management System in C
-Copyright (c) 2025 Ritesh Bundel
 
-All rights reserved.
-Unauthorized copying or distribution of this code is prohibited.
+Copyright (c) 2025 Ritesh Bundel
+All Rights Reserved.
+
+This project is developed strictly for educational purposes.
+It is intended for learning and academic demonstration only.
+
+Unauthorized copying, modification, distribution, or commercial use
+of this software without prior written permission from the author
+is strictly prohibited.
 */
+
 
 
 
