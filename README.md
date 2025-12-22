@@ -47,8 +47,34 @@ This project demonstrates the use of **random number generation**, **conditional
 ## Tech Stack
 
 - C Programming Language  
-- Libraries: `stdio.h`, `stdlib.h`, `time.h`  
+- Libraries: `stdio.h`, `stdlib.h`, `time.h`
 ---
+### [Bank Management System (C Language)](https://github.com/bundelritesh9/Ritesh_Bundel/blob/main/Bank_Management_System.c)
+
+A simple **console-based Bank Management System** implemented in C.  
+This project demonstrates basic file handling, structures, and PIN verification for bank accounts.
+
+## Features
+
+- Create Account with:
+  - Name
+  - Age (must be 18+)
+  - Phone Number (10 digits)
+  - 4-digit PIN
+  - Auto-generated unique Account Number
+  - Initial balance of Rs. 2000
+- Deposit money
+- Withdraw money (with balance check)
+- Check account balance
+- Update account details (Name, Age, Phone Number)
+- Delete account
+- PIN authentication with maximum 3 attempts
+
+## Technologies Used
+
+- Language: C
+- File Handling: Text files for account storage
+- Random number generation for account number
 ## 💡 Learning & Growth
 I enjoy building small projects to strengthen my understanding of programming fundamentals and improve problem-solving skills.  
 I am particularly interested in C programming, algorithms, and developing efficient, well-structured code.
