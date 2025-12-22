@@ -1,0 +1,22 @@
+Copyright (c) 2025 Ritesh Bundel
+All Rights Reserved.
+
+This repository contains projects developed for skill demonstration
+and portfolio purposes. The source code is intended to showcase
+programming ability, logical problem-solving, and software development
+concepts.
+
+The code is provided for viewing and learning purposes only.
+It is not intended for commercial use, production deployment,
+or redistribution.
+
+Permission is granted to recruiters, reviewers, and learners to view
+and evaluate this code solely for skill assessment purposes.
+
+Unauthorized copying, modification, redistribution, publication,
+or commercial use of this software, in whole or in part, without prior
+written permission from the author is strictly prohibited.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
