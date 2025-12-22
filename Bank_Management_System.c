@@ -129,7 +129,7 @@ int main()
 
                 } while (!unique);
 
-                printf("\nCongratulations!!, You have successfully created your account in our bank\n");
+                printf("\nCongratulations!, You have successfully created your account in our bank\n");
                 printf("Name: %s\n", N.name);
                 printf("Age: %d\n", N.age);
                 printf("Phone Number: %s\n", N.phone);
@@ -555,6 +555,7 @@ int main()
     return 0;
 
 }
+
 
 
 
