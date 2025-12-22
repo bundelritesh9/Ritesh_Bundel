@@ -28,7 +28,7 @@ int main()
         printf("6. Delete account\n");
         printf("7. exit\n");
 
-        printf("Choose one\n");
+        printf("Please select one\n");
         scanf("%d", &user);
         if (user == 1)
         {
@@ -553,4 +553,5 @@ int main()
         }
     }
     return 0;
+
 }
