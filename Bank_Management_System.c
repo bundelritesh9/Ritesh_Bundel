@@ -437,7 +437,7 @@ int main()
                                             }
                                             else
                                             {
-                                                printf("Phone number must contain only digits!\n");
+                                                printf("Phone number must contain only 10-digits.\n");
                                             }
                                         }
                                         else if (strlen(temp_phone) < 10)
@@ -461,7 +461,7 @@ int main()
                                 }
                                 else
                                 {
-                                    printf("Maximum PIN attempts exceeded. Try again later!.\n");
+                                    printf("Maximum PIN attempts exceeded. Try again later.\n");
                                 }
                             }
                         }
@@ -563,13 +563,14 @@ Bank Management System in C
 Copyright (c) 2025 Ritesh Bundel
 All Rights Reserved.
 
-This project is developed strictly for educational purposes.
-It is intended for learning and skill demonstration only.
+This project is developed strictly for skill demonstration purposes.
+It is intended to showcase programming and problem-solving skills.
 
 Unauthorized copying, modification, distribution, or commercial use
 of this software without prior written permission from the author
 is strictly prohibited.
 */
+
 
 
 
