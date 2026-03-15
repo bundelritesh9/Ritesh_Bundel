@@ -33,3 +33,13 @@ This project demonstrates **Object-Oriented Programming (OOP)**, **file handling
 
 ```bash
 g++ main.cpp Hotel.cpp Room.cpp Customer.cpp -o hotel
+```
+2. Run the program
+   windows:
+   ```bash
+   HotelSystem.exe
+   ```
+   linux/mac
+   ```bash
+   ./HotelSystem
+   ```
