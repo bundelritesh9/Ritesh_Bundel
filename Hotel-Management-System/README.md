@@ -25,6 +25,12 @@ This project demonstrates **Object-Oriented Programming (OOP)**, **file handling
 
 ---
 
+## Future Improvements
+
+- Book multiple rooms at once   
+- Generate unique booking IDs for easier management  
+- Show hotel statistics (available rooms, revenue)  
+
 ## How to Run
 
 ### Using g++ compiler:
