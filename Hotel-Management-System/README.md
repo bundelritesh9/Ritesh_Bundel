@@ -36,7 +36,7 @@ g++ main.cpp Hotel.cpp Room.cpp Customer.cpp -o hotel
 ```
 2. Run the program
    
-   Windows:
+   Windows
    ```bash
    HotelSystem.exe
    ```
