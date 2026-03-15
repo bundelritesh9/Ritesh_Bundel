@@ -36,11 +36,11 @@ g++ main.cpp Hotel.cpp Room.cpp Customer.cpp -o hotel
 ```
 2. Run the program
    
-   windows:
+   Windows:
    ```bash
    HotelSystem.exe
    ```
-   linux/mac
+   Linux/Mac
    ```bash
    ./HotelSystem
    ```
