@@ -35,6 +35,7 @@ This project demonstrates **Object-Oriented Programming (OOP)**, **file handling
 g++ main.cpp Hotel.cpp Room.cpp Customer.cpp -o hotel
 ```
 2. Run the program
+   
    windows:
    ```bash
    HotelSystem.exe
