@@ -38,7 +38,7 @@ This project demonstrates **Object-Oriented Programming (OOP)**, **file handling
 1. Compile all `.cpp` files:
 
 ```bash
-g++ main.cpp Hotel.cpp Room.cpp Customer.cpp -o hotel
+g++ main.cpp Hotel.cpp Room.cpp Customer.cpp -o HotelSystem
 ```
 2. Run the program
    
