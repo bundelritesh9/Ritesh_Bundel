@@ -11,12 +11,9 @@ st.set_page_config(
 
 
 from pathlib import Path
-import os
+
 
 BASE_DIR = Path(__file__).resolve().parent
-
-st.write("Current directory:", BASE_DIR)
-st.write("Files in directory:", os.listdir(BASE_DIR))
 
 model = joblib.load(BASE_DIR / "catBoost.pkl")
 columns = joblib.load(BASE_DIR / "columns.pkl")
